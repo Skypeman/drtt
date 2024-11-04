@@ -95,11 +95,11 @@ public static void test2() {
 
     WebElement loginInput = driver.findElement(By.id("sign"));
     loginInput.click();
-    loginInput.sendKeys("login1823");
+    loginInput.sendKeys(LOGIN);
 
     WebElement passwordInput = driver.findElement(By.id("password"));
     passwordInput.click();
-    passwordInput.sendKeys("Password1");
+    passwordInput.sendKeys(PASSWORD);
 
     WebElement signinButton = driver.findElement(By.id("signbutton"));
     signinButton.click();
